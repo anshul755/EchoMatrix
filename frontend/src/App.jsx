@@ -4,6 +4,7 @@ import MainLayout from './components/layout/MainLayout';
 import { LoadingState } from './components/ui/StatePanel';
 
 const LandingPage = lazy(() => import('./pages/LandingPage'));
+const DashboardPage = lazy(() => import('./pages/DashboardPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
 const TrendsPage = lazy(() => import('./pages/TrendsPage'));
 const TopicsPage = lazy(() => import('./pages/TopicsPage'));
@@ -17,6 +18,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route element={<MainLayout />}>
+            <Route path="dashboard" element={<DashboardPage />} />
             <Route path="search" element={<SearchPage />} />
             <Route path="trends" element={<TrendsPage />} />
             <Route path="timeseries" element={<TrendsPage />} />
