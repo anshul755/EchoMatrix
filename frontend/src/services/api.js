@@ -1,10 +1,16 @@
 import axios from 'axios';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api';
+const defaultHeaders = {};
+
+if (API_BASE_URL.includes('ngrok-free.dev') || API_BASE_URL.includes('ngrok-free.app')) {
+  defaultHeaders['ngrok-skip-browser-warning'] = 'true';
+}
 
 const api = axios.create({
   baseURL: API_BASE_URL,
   timeout: 70000,
+  headers: defaultHeaders,
 });
 
 export async function fetchStats() {
