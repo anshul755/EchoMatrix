@@ -31,6 +31,8 @@ async def lifespan(app: FastAPI):
 
 
 def create_app() -> FastAPI:
+    allowed_origins = list(dict.fromkeys([*settings.ALLOWED_ORIGINS, "https://echo-matrix.vercel.app"]))
+
     app = FastAPI(
         title=settings.PROJECT_NAME,
         version=settings.VERSION,
@@ -39,7 +41,7 @@ def create_app() -> FastAPI:
 
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=settings.ALLOWED_ORIGINS,
+        allow_origins=allowed_origins,
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
