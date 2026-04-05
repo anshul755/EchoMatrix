@@ -1,0 +1,12 @@
+# EchoMatrix Backend Dependencies
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.5.0
+sentence-transformers>=3.0.0
+networkx>=3.3
+umap-learn>=0.5.6
+google-genai>=0.3.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
