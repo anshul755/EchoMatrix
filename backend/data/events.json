@@ -1,0 +1,44 @@
+[
+  {
+    "id": "us-election-day-2024",
+    "date": "2024-11-05",
+    "title": "U.S. Election Day",
+    "description": "National voting day in the 2024 United States presidential election, a major offline milestone for political discussion across the dataset.",
+    "category": "election"
+  },
+  {
+    "id": "trump-inauguration-2025",
+    "date": "2025-01-20",
+    "title": "Donald Trump Inaugurated for a Second Term",
+    "description": "Trump's January 20, 2025 inauguration triggered a new cycle of discussion about executive power, policy direction, and high-profile figures around the administration.",
+    "category": "government"
+  },
+  {
+    "id": "reagan-airport-collision-2025",
+    "date": "2025-01-29",
+    "title": "Reagan National Airport Midair Collision",
+    "description": "A passenger jet and Army helicopter collided near Washington, D.C., producing a major national news shock that fed into federal accountability and safety debates.",
+    "category": "crisis"
+  },
+  {
+    "id": "50501-protests-feb-2025",
+    "date": "2025-02-05",
+    "title": "Nationwide 50501 Anti-Trump Protests",
+    "description": "The 50501 movement organized coordinated anti-Trump and anti-Musk protests in multiple U.S. cities, aligning with visible activism and backlash themes in the dataset.",
+    "category": "protest"
+  },
+  {
+    "id": "munich-security-conference-2025",
+    "date": "2025-02-14",
+    "title": "Munich Security Conference Opens",
+    "description": "The 2025 Munich Security Conference opened as global attention focused on U.S. foreign policy, Europe, NATO, Russia, and Ukraine-related rhetoric.",
+    "category": "foreign-policy"
+  },
+  {
+    "id": "presidents-day-no-kings-2025",
+    "date": "2025-02-17",
+    "title": "\"No Kings\" Presidents Day Protests",
+    "description": "A second major wave of 50501-linked demonstrations took place on Presidents Day, extending anti-administration protest activity into another clear discussion spike.",
+    "category": "protest"
+  }
+]
