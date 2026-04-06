@@ -31,8 +31,6 @@
 
 ### Live Deployment
 
-Add your public deployment URLs here later:
-
 ```text
 Frontend: https://echo-matrix.vercel.app/
 Backend:  http://ec2-3-93-52-134.compute-1.amazonaws.com:8000/
