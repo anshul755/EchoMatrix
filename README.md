@@ -27,15 +27,6 @@
 
 ---
 
-## Demo Preview
-
-### Live Deployment
-
-```text
-Frontend: https://echo-matrix.vercel.app/
-Backend:  http://ec2-3-93-52-134.compute-1.amazonaws.com:8000/
-```
-
 ### Screenshots
 
 #### Landing Page
@@ -172,7 +163,7 @@ The project is built around a real dataset at [backend/data/data.jsonl](./backen
 | Visualization | Recharts, react-force-graph-2d, OGL |
 | Backend | FastAPI, Uvicorn |
 | Data | pandas, numpy |
-| Retrieval / ML | sentence-transformers, scikit-learn, UMAP |
+| Retrieval / ML | sentence-transformers, scikit-learn |
 | Graph Analysis | NetworkX |
 | AI Summaries | Gemini via `google-genai` |
 | Config | python-dotenv |
